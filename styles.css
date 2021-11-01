@@ -99,3 +99,10 @@ body {
     padding-bottom: 20px;
     text-transform: uppercase;
 }
+
+#result{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 20px 50px auto;
+
+}
